@@ -1,0 +1,86 @@
+body{
+	background-color: #ccc;
+	color: #000;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+	background-image: url('../images/bck1.jpg');
+	background-image: 100%;
+	background-position: center right;
+	background-repeat: no-repeat;
+
+}
+.container{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+#navbar{
+	background-image: linear-gradient(to right, #e3242b, #b90e0a);
+	color: #000;
+}
+#navbar ul{
+	padding: 0;
+	list-style: none;
+	margin-right: 1%;
+}
+}
+#navbar li{
+	display: inline;
+}
+#navbar a{
+	font-size: 20px;
+	color: #000;
+	text-decoration: none;
+	float: right;
+	width: 10%;
+	padding-right: 15px;
+	margin-top: 0;
+}
+.hi{
+	font-family: lucida, cursive;
+	font-size: 60px;
+	position: absolute;
+	top: 200px;
+	left: 100px;
+}
+.ee{
+	font-family: monospace;
+	font-size: 20px;
+	position: absolute;
+	top: 295px;
+	left: 100px;
+}
+.pic{
+	position: absolute;
+	top: 40px;
+	right: 70px;
+
+}
+#mft{
+	background-color: black;
+	width: 100%;
+	color: white;
+	position: absolute;
+	text-align: center;
+	margin-top: 560px;
+	font-size: 10px;
+	padding: 7px;
+}
+.button{
+	text-decoration: none;
+	background-color:#333;
+	color:#fff;
+	padding:10px 15px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 15px;
+	position: absolute;
+	top: 350px;
+	left: 110px;
+}
+
+.button:hover{
+	background:#e3242b;
+	color:#fff;
+}
+
