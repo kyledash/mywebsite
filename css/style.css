@@ -17,6 +17,9 @@ body, html{
 	margin: auto;
 	overflow: hidden;
 }
+#showcase{
+	width: 100%;
+}
 #navbar{
 	background-image: linear-gradient(to right, #e3242b, #b90e0a);
 	color: #000;
@@ -46,8 +49,8 @@ body, html{
 .hh:hover{
 	background-color: black;
 	color: #fff !important;
-	border-top-right-radius: 5px;
-	border-top-left-radius: 5px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
 }
 .hi{
 	font-family: 'Pacifico', cursive;
@@ -60,11 +63,12 @@ body, html{
 	font-family: monospace;
 	font-size: 20px;
 	position: absolute;
-	top: 300px;
+	top: 305px;
 	left: 110px;
 }
 .pic{
 	position: absolute;
+	height: 88%;
 	bottom: 6%;
 	right: 5%;
 }
@@ -84,7 +88,7 @@ body, html{
 	border-top-right-radius: 20px;
 	border-bottom-left-radius: 15px;
 	position: absolute;
-	top: 360px;
+	top: 370px;
 	left: 110px;
 }
 
@@ -92,8 +96,25 @@ body, html{
 	background:#e3242b;
 	color:#fff;
 }
+.contact{
+	font-family: monospace;
+	text-decoration: none;
+	background-color:#333;
+	color:#fff;
+	padding:10px 15px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 15px;
+	position: absolute;
+	top: 370px;
+	left: 300px;
+}
+.contact:hover{
+	background:#e3242b;
+	color:#fff;
+}
 .otherpic{
 	position: absolute;
+	height: 88%;
 	bottom: 6%;
 	left: 5%;
 }
@@ -101,15 +122,81 @@ body, html{
 	height: 22px;
 	border-radius: 10px;
 }
-.sft ul{
+.mft ul{
 	padding: 0;
 	list-style: none;
 	width: 67%;
 }
-.sft li{
+.mft li{
 	display: inline;
 }
-.sft a{
+.mft a{
 	float: right;
 	margin-right: 11%;
+}
+.gmail{
+	position: absolute;
+	height: 10%;
+	left: 51%;
+	top: 45%;
+	background-color: white;
+	padding: 0.5%;
+	border-radius: 50%;
+}
+.gmail2{
+	position: absolute;
+	height: 10%;
+	left: 51%;
+	top: 25%;
+	background-color: white;
+	padding: 0.5%;
+	border-radius: 50%;
+}
+.phone{
+	position: absolute;
+	height: 10%;
+	left: 51%;
+	top: 65%;
+	background-color: white;
+	padding: 0.5%;
+	border-radius: 50%;
+}
+.mad1{
+	font-family: 'PT Sans Narrow', sans-serif;
+	position: absolute;
+	font-size: 200%;
+	left: 61%;
+	top: 22%;
+	background-color: white;
+	padding: 1%;
+	border-bottom-right-radius: 0.2em;
+	border-bottom-left-radius: 0.2em;
+	border-top-left-radius: 0.2em;
+	border-top-right-radius: 0.8em;
+}
+.mad2{
+	font-family: 'PT Sans Narrow', sans-serif;
+	position: absolute;
+	font-size: 200%;
+	left: 61%;
+	top: 42%;
+	background-color: white;
+	padding: 1%;
+	border-bottom-right-radius: 0.2em;
+	border-bottom-left-radius: 0.2em;
+	border-top-left-radius: 0.2em;
+	border-top-right-radius: 0.8em;
+}
+.pn{
+	font-family: 'PT Sans Narrow', sans-serif;
+	position: absolute;
+	font-size: 200%;
+	left: 61%;
+	top: 62%;
+	background-color: white;
+	padding: 1%;
+	border-bottom-right-radius: 0.2em;
+	border-bottom-left-radius: 0.2em;
+	border-top-left-radius: 0.2em;
+	border-top-right-radius: 0.8em;
 }
