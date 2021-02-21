@@ -260,7 +260,7 @@ body, html{
 		.hi{
 			font-family: 'Pacifico', cursive;
 			font-size: 1120%;
-			top: -5%;
+			top: 0%;
 			line-height: 100%;
 			text-align: center;
 			margin-left: -6%;
@@ -277,7 +277,7 @@ body, html{
 		.pic{
 			height: 40%;
 			bottom: 1%;
-			left: -2%;
+			left: 14%
 		}
 		.mft{
 			background-color: black;
@@ -321,7 +321,7 @@ body, html{
 		.otherpic{
 			height: 40%;
 			bottom: 1%;
-			left: -2%;
+			left: 14%
 		}
 		.sicon{
 			height: 22px;
