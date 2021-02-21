@@ -1,4 +1,5 @@
 body, html{
+	box-sizing: border-box;
 	background-color: #ccc;
 	color: #000;
 	font-size:16px;
@@ -259,7 +260,7 @@ body, html{
 		.hi{
 			font-family: 'Pacifico', cursive;
 			font-size: 1120%;
-			top: 0.1%;
+			top: -5%;
 			line-height: 100%;
 			text-align: center;
 			margin-left: -6%;
@@ -276,11 +277,11 @@ body, html{
 		.pic{
 			height: 40%;
 			bottom: 1%;
+			left: -2%;
 		}
 		.mft{
 			background-color: black;
 			width: 100%;
-			position: absolute;
 			bottom: 0;
 			padding:0;
 		}
