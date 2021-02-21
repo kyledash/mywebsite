@@ -263,7 +263,7 @@ body, html{
 			line-height: 100%;
 			text-align: center;
 			margin-left: -6%;
-			margin-bottom: auto;
+			margin-bottom: 10%;
 		}
 		.ee{
 			font-family: monospace;
@@ -273,7 +273,7 @@ body, html{
 			text-align: center;
 			margin-left: -7%;
 			margin-right: 0;
-			margin-top: auto;
+			margin-top: 10%;
 		}
 		.pic{
 			height: 40%;
