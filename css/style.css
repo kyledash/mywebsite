@@ -258,18 +258,15 @@ body, html{
 		}
 		.hi{
 			font-family: 'Pacifico', cursive;
-			font-size: 1140%;
-			position: absolute;
+			font-size: 1120%;
 			top: 3%;
 			line-height: 100%;
 			text-align: center;
-			margin-left: -7%;
-			margin-right: 0;
+			margin-left: -6%;
 		}
 		.ee{
 			font-family: monospace;
 			font-size: 500%;
-			position: absolute;
 			top: 32%;
 			line-height: 100%;
 			text-align: center;
@@ -277,7 +274,6 @@ body, html{
 			margin-right: 0;
 		}
 		.pic{
-			position: absolute;
 			height: 40%;
 			bottom: 1%;
 		}
@@ -297,7 +293,6 @@ body, html{
 			padding:10px 15px;
 			border-top-right-radius: 20px;
 			border-bottom-left-radius: 15px;
-			position: absolute;
 			top: 55%;
 			left: 10%;
 		}
@@ -315,7 +310,6 @@ body, html{
 			padding:10px 15px;
 			border-top-left-radius: 20px;
 			border-bottom-right-radius: 15px;
-			position: absolute;
 			top: 55%;
 			left: 60%;
 		}
@@ -324,7 +318,6 @@ body, html{
 			color:#fff;
 		}
 		.otherpic{
-			position: absolute;
 			height: 40%;
 			bottom: 1%;
 		}
@@ -345,7 +338,6 @@ body, html{
 			margin-right: 11%;
 		}
 		.gmail1{
-			position: absolute;
 			height: 7%;
 			left: 20%;
 			top: 10%;
@@ -354,7 +346,6 @@ body, html{
 			border-radius: 50%;
 		}
 		.gmail2{
-			position: absolute;
 			height: 7%;
 			left: 20%;
 			top: 25%;
@@ -363,7 +354,6 @@ body, html{
 			border-radius: 50%;
 		}
 		.phone{
-			position: absolute;
 			height: 7%;
 			left: 20%;
 			top: 40%;
@@ -375,7 +365,6 @@ body, html{
 			color: #000;
 			text-decoration: none;
 			font-family: 'PT Sans Narrow', sans-serif;
-			position: absolute;
 			font-size: 300%;
 			left: 45%;
 			top: 12.8%;
@@ -393,7 +382,6 @@ body, html{
 			color: #000;
 			text-decoration: none;
 			font-family: 'PT Sans Narrow', sans-serif;
-			position: absolute;
 			font-size: 300%;
 			left: 45%;
 			top: 27.8%;
@@ -409,7 +397,6 @@ body, html{
 		}
 		.pn{
 			font-family: 'PT Sans Narrow', sans-serif;
-			position: absolute;
 			font-size: 300%;
 			left: 45%;
 			top: 40.5%;
