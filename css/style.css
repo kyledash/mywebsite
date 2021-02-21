@@ -259,11 +259,10 @@ body, html{
 		.hi{
 			font-family: 'Pacifico', cursive;
 			font-size: 1120%;
-			top: 3%;
+			top: 0.1%;
 			line-height: 100%;
 			text-align: center;
 			margin-left: -6%;
-			margin-bottom: 10%;
 		}
 		.ee{
 			font-family: monospace;
@@ -273,7 +272,6 @@ body, html{
 			text-align: center;
 			margin-left: -7%;
 			margin-right: 0;
-			margin-top: 10%;
 		}
 		.pic{
 			height: 40%;
