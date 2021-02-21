@@ -162,11 +162,13 @@ body, html{
 	border-radius: 50%;
 }
 .mad1{
+	color: #000;
+	text-decoration: none;
 	font-family: 'PT Sans Narrow', sans-serif;
 	position: absolute;
 	font-size: 200%;
 	left: 61%;
-	top: 22%;
+	top: 27%;
 	background-color: white;
 	padding: 1%;
 	border-bottom-right-radius: 0.2em;
@@ -174,18 +176,26 @@ body, html{
 	border-top-left-radius: 0.2em;
 	border-top-right-radius: 0.8em;
 }
+.mad1:hover{
+	color:blue;
+}
 .mad2{
+	color: #000;
+	text-decoration: none;
 	font-family: 'PT Sans Narrow', sans-serif;
 	position: absolute;
 	font-size: 200%;
 	left: 61%;
-	top: 42%;
+	top: 47%;
 	background-color: white;
 	padding: 1%;
 	border-bottom-right-radius: 0.2em;
 	border-bottom-left-radius: 0.2em;
 	border-top-left-radius: 0.2em;
 	border-top-right-radius: 0.8em;
+}
+.mad2:hover{
+	color:blue;
 }
 .pn{
 	font-family: 'PT Sans Narrow', sans-serif;
