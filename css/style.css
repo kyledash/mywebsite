@@ -17,9 +17,6 @@ body, html{
 	margin: auto;
 	overflow: hidden;
 }
-#showcase{
-	width: 100%;
-}
 #navbar{
 	background-image: linear-gradient(to right, #e3242b, #b90e0a);
 	color: #000;
@@ -54,17 +51,17 @@ body, html{
 }
 .hi{
 	font-family: 'Pacifico', cursive;
-	font-size: 60px;
+	font-size: 400%;
 	position: absolute;
-	top: 200px;
-	left: 100px;
+	top: 31%;
+	left: 7%;
 }
 .ee{
 	font-family: monospace;
-	font-size: 20px;
+	font-size: 120%;
 	position: absolute;
-	top: 305px;
-	left: 110px;
+	top: 48%;
+	left: 8%;
 }
 .pic{
 	position: absolute;
@@ -134,7 +131,7 @@ body, html{
 	float: right;
 	margin-right: 11%;
 }
-.gmail{
+.gmail1{
 	position: absolute;
 	height: 10%;
 	left: 51%;
@@ -210,3 +207,217 @@ body, html{
 	border-top-left-radius: 0.2em;
 	border-top-right-radius: 0.8em;
 }
+
+/*for phone for phone for phone for phone for phone for phone for phone for phone for phone for phone for phone */
+		@media only screen and (max-width: 1080px){
+		body, html{
+			background-color: #ccc;
+			color: #000;
+			font-size:16px;
+			line-height:1.6em;
+			margin:0 0 0 0;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.container{
+			width: 100%;
+			margin: auto;
+			overflow: hidden;
+		}
+		#navbar{
+			background-image: linear-gradient(to right, #e3242b, #b90e0a);
+			color: #000;
+		}
+		#navbar ul{
+			padding: 0;
+			list-style: none;
+			margin-right: 3%;
+		}
+		#navbar li{
+			display: inline;
+			color: black;
+		}
+		#navbar a{
+			font-family: 'Montaga', serif;
+			font-size: 20px;
+			color: #000;
+			text-decoration: none;
+			float: right;
+			width: 20%;
+			text-align: center;
+			padding: 0;
+			margin-top: 0;
+			margin: 0 20px;
+		}
+		.hh:hover{
+			background-color: black;
+			color: #fff !important;
+			border-top-right-radius: 10px;
+			border-top-left-radius: 10px;
+		}
+		.hi{
+			font-family: 'Pacifico', cursive;
+			font-size: 1140%;
+			position: absolute;
+			top: 3%;
+			line-height: 100%;
+			text-align: center;
+			margin-left: -7%;
+			margin-right: 0;
+		}
+		.ee{
+			font-family: monospace;
+			font-size: 500%;
+			position: absolute;
+			top: 32%;
+			line-height: 100%;
+			text-align: center;
+			margin-left: -7%;
+			margin-right: 0;
+		}
+		.pic{
+			position: absolute;
+			height: 40%;
+			bottom: 1%;
+		}
+		.mft{
+			background-color: black;
+			width: 100%;
+			position: absolute;
+			bottom: 0;
+			padding:0;
+		}
+		.resume{
+			font-size: 250%;
+			font-family: monospace;
+			text-decoration: none;
+			background-color:#333;
+			color:#fff;
+			padding:10px 15px;
+			border-top-right-radius: 20px;
+			border-bottom-left-radius: 15px;
+			position: absolute;
+			top: 55%;
+			left: 10%;
+		}
+
+		.resume:hover{
+			background:#e3242b;
+			color:#fff;
+		}
+		.contact{
+			font-size: 250%;
+			font-family: monospace;
+			text-decoration: none;
+			background-color:#333;
+			color:#fff;
+			padding:10px 15px;
+			border-top-left-radius: 20px;
+			border-bottom-right-radius: 15px;
+			position: absolute;
+			top: 55%;
+			left: 60%;
+		}
+		.contact:hover{
+			background:#e3242b;
+			color:#fff;
+		}
+		.otherpic{
+			position: absolute;
+			height: 40%;
+			bottom: 1%;
+		}
+		.sicon{
+			height: 22px;
+			border-radius: 10px;
+		}
+		.mft ul{
+			padding: 0;
+			list-style: none;
+			width: 67%;
+		}
+		.mft li{
+			display: inline;
+		}
+		.mft a{
+			float: right;
+			margin-right: 11%;
+		}
+		.gmail1{
+			position: absolute;
+			height: 7%;
+			left: 20%;
+			top: 10%;
+			background-color: white;
+			padding: 0.5%;
+			border-radius: 50%;
+		}
+		.gmail2{
+			position: absolute;
+			height: 7%;
+			left: 20%;
+			top: 25%;
+			background-color: white;
+			padding: 0.5%;
+			border-radius: 50%;
+		}
+		.phone{
+			position: absolute;
+			height: 7%;
+			left: 20%;
+			top: 40%;
+			background-color: white;
+			padding: 0.5%;
+			border-radius: 50%;
+		}
+		.mad1{
+			color: #000;
+			text-decoration: none;
+			font-family: 'PT Sans Narrow', sans-serif;
+			position: absolute;
+			font-size: 300%;
+			left: 45%;
+			top: 12.8%;
+			background-color: white;
+			padding: 1%;
+			border-bottom-right-radius: 0.2em;
+			border-bottom-left-radius: 0.2em;
+			border-top-left-radius: 0.2em;
+			border-top-right-radius: 0.8em;
+		}
+		.mad1:hover{
+			color:blue;
+		}
+		.mad2{
+			color: #000;
+			text-decoration: none;
+			font-family: 'PT Sans Narrow', sans-serif;
+			position: absolute;
+			font-size: 300%;
+			left: 45%;
+			top: 27.8%;
+			background-color: white;
+			padding: 1%;
+			border-bottom-right-radius: 0.2em;
+			border-bottom-left-radius: 0.2em;
+			border-top-left-radius: 0.2em;
+			border-top-right-radius: 0.8em;
+		}
+		.mad2:hover{
+			color:blue;
+		}
+		.pn{
+			font-family: 'PT Sans Narrow', sans-serif;
+			position: absolute;
+			font-size: 300%;
+			left: 45%;
+			top: 40.5%;
+			background-color: white;
+			padding: 1%;
+			border-bottom-right-radius: 0.2em;
+			border-bottom-left-radius: 0.2em;
+			border-top-left-radius: 0.2em;
+			border-top-right-radius: 0.8em;
+		}
+		}
