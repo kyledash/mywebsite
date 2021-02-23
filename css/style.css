@@ -1,412 +1,169 @@
 body, html{
-	box-sizing: border-box;
-	background-color: #ccc;
-	color: #000;
-	font-size:16px;
-	line-height:1.6em;
+	background-color: #c0c0c0;
+	color: rgb(30,30,30);
+	font-family: monospace;
+	font-size: 20px;
 	margin:0;
-	background-image: url('../images/bck1.jpg');
-	background-image: 100%;
+	line-height: 1.25em;
 	width: 100%;
-	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	box-sizing: border-box;
 }
-.container{
+.navbar{
 	width: 100%;
-	margin: auto;
-	overflow: hidden;
+	background-image: linear-gradient(to right, #b22222, #e3242b, #b222);
+	height: 2.5rem;
 }
-#navbar{
-	background-image: linear-gradient(to right, #e3242b, #b90e0a);
-	color: #000;
-}
-#navbar ul{
-	padding: 0;
-	list-style: none;
-	margin-right: 1%;
-}
-}
-#navbar li{
+.navbar ul,li{
 	display: inline;
-	color: black;
 }
-#navbar a{
-	font-family: 'Montaga', serif;
-	font-size: 20px;
-	color: #000;
+.navbar a{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	color: rgb(30,30,30);
 	text-decoration: none;
 	float: right;
-	width: 10%;
-	text-align: center;
-	padding: 0;
-	margin-top: 0;
-	margin: 0 20px;
+	margin-right: 4em;
+	margin-top: 0.5em;
+
 }
 .hh:hover{
-	background-color: black;
-	color: #fff !important;
-	border-top-right-radius: 10px;
-	border-top-left-radius: 10px;
+	background-color: #696969;
+	color:rgb(250,250,250);
+	border-radius: 5px;
+	padding: 0.1em;
+}
+.div1{
+	color: black;
+	background-image: url(../images/bck1.jpg);
+	width: 100%;
+	height: 27em;
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom:0.2em solid;
+}
+.mypic{
+	float: right;
+	width: 40%;
+	margin-right: 2rem;
+	box-sizing: border-box;
 }
 .hi{
+	float: left;
+	width: 60%;
 	font-family: 'Pacifico', cursive;
-	font-size: 400%;
+	font-size: 4em;
+	line-height: 1.5em;
+	box-sizing: border-box;
 	position: absolute;
-	top: 31%;
-	left: 7%;
+	left: 2rem;
+	top: 2rem;
 }
 .ee{
+	float: left;
+	width: 60%;
 	font-family: monospace;
-	font-size: 120%;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	box-sizing: border-box;
 	position: absolute;
-	top: 48%;
-	left: 8%;
-}
-.pic{
-	position: absolute;
-	height: 88%;
-	bottom: 6%;
-	right: 5%;
-}
-.mft{
-	background-color: black;
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-	padding:0;
+	left: 2.5rem;
+	top: 12rem;
 }
 .resume{
+	float: left;
 	font-family: monospace;
 	text-decoration: none;
 	background-color:#333;
 	color:#fff;
-	padding:10px 15px;
-	border-top-right-radius: 20px;
-	border-bottom-left-radius: 15px;
+	padding:0.5em 0.5em;
+	border-top-right-radius: 1.3em;
+	border-bottom-left-radius: 1em;
 	position: absolute;
-	top: 370px;
-	left: 110px;
+	left: 8rem;
+	top: 18rem;
 }
-
+.git{
+	float: left;
+	font-family: monospace;
+	text-decoration: none;
+	background-color:#333;
+	color:#fff;
+	padding:0.5em 0.5em;
+	border-top-left-radius: 1.3em;
+	border-bottom-right-radius: 1em;
+	position: absolute;
+	left: 24rem;
+	top: 18rem;
+}
 .resume:hover{
-	background:#e3242b;
-	color:#fff;
+	background-color: #e3242b;
 }
-.contact{
-	font-family: monospace;
-	text-decoration: none;
-	background-color:#333;
-	color:#fff;
-	padding:10px 15px;
-	border-top-left-radius: 20px;
-	border-bottom-right-radius: 15px;
-	position: absolute;
-	top: 370px;
-	left: 300px;
+.git:hover{
+	background-color: #e3242b;
 }
-.contact:hover{
-	background:#e3242b;
-	color:#fff;
-}
-.otherpic{
-	position: absolute;
-	height: 88%;
-	bottom: 6%;
-	left: 5%;
+.mft{
+	width: 100%;
+	background-color: rgb(30,30,30);
+	height: 40px;
+	position: relative;
 }
 .sicon{
-	height: 22px;
-	border-radius: 10px;
-}
-.mft ul{
-	padding: 0;
-	list-style: none;
-	width: 67%;
-}
-.mft li{
-	display: inline;
-}
-.mft a{
+	margin-top: 5px;
+	height: 1.5rem;
+	border-radius: 0.75rem;
 	float: right;
-	margin-right: 11%;
+	margin-right: 6rem;
 }
-.gmail1{
-	position: absolute;
-	height: 10%;
-	left: 51%;
-	top: 45%;
-	background-color: white;
-	padding: 0.5%;
-	border-radius: 50%;
+.copy{
+	float: left;
+	margin-left: 1rem;
+	color: rgb(230,230,230); 
+	font-size: 0.6em;
 }
-.gmail2{
-	position: absolute;
-	height: 10%;
-	left: 51%;
-	top: 25%;
-	background-color: white;
-	padding: 0.5%;
-	border-radius: 50%;
+.div2{
+	color: black;
+	background-image: url(../images/bck1.jpg);
+	width: 100%;
+	height: 27em;
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom:0.2em solid;
 }
-.phone{
-	position: absolute;
-	height: 10%;
-	left: 51%;
-	top: 65%;
-	background-color: white;
-	padding: 0.5%;
-	border-radius: 50%;
+.mypic2{
+	float: left;
+	width: 40%;
+	margin-left: 2rem;
+	box-sizing: border-box;
 }
-.mad1{
-	color: #000;
+.contable{
+	float: right;
+	width: 50%;
+	box-sizing: border-box;
+	margin-top: 4.5rem;
+}
+.cont{
+	height: 3rem;
+	border-radius: 1.5em;
+	background-color: rgb(240,240,240);
+	padding: 0.2em;
+	margin: 20px 5px;
+}
+.mad{
 	text-decoration: none;
 	font-family: 'PT Sans Narrow', sans-serif;
-	position: absolute;
-	font-size: 200%;
-	left: 61%;
-	top: 27%;
-	background-color: white;
-	padding: 1%;
-	border-bottom-right-radius: 0.2em;
-	border-bottom-left-radius: 0.2em;
-	border-top-left-radius: 0.2em;
+	font-size: 1.5rem;
+	color: rgb(30,30,30);
+	background-color: rgb(240,240,240);
+	padding: 0.2em;
 	border-top-right-radius: 0.8em;
-}
-.mad1:hover{
-	color:blue;
-}
-.mad2{
-	color: #000;
-	text-decoration: none;
-	font-family: 'PT Sans Narrow', sans-serif;
-	position: absolute;
-	font-size: 200%;
-	left: 61%;
-	top: 47%;
-	background-color: white;
-	padding: 1%;
-	border-bottom-right-radius: 0.2em;
 	border-bottom-left-radius: 0.2em;
-	border-top-left-radius: 0.2em;
-	border-top-right-radius: 0.8em;
-}
-.mad2:hover{
-	color:blue;
-}
-.pn{
-	font-family: 'PT Sans Narrow', sans-serif;
-	position: absolute;
-	font-size: 200%;
-	left: 61%;
-	top: 62%;
-	background-color: white;
-	padding: 1%;
 	border-bottom-right-radius: 0.2em;
-	border-bottom-left-radius: 0.2em;
 	border-top-left-radius: 0.2em;
-	border-top-right-radius: 0.8em;
 }
-
-/*for phone for phone for phone for phone for phone for phone for phone for phone for phone for phone for phone */
-		@media only screen and (max-width: 1080px){
-		body, html{
-			background-color: #ccc;
-			color: #000;
-			font-size:16px;
-			line-height:1.6em;
-			margin:0 0 0 0;
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
-		}
-		.container{
-			width: 100%;
-			margin: auto;
-			overflow: hidden;
-		}
-		#navbar{
-			background-image: linear-gradient(to right, #e3242b, #b90e0a);
-			color: #000;
-		}
-		#navbar ul{
-			padding: 0;
-			list-style: none;
-			margin-right: 3%;
-		}
-		#navbar li{
-			display: inline;
-			color: black;
-		}
-		#navbar a{
-			font-family: 'Montaga', serif;
-			font-size: 20px;
-			color: #000;
-			text-decoration: none;
-			float: right;
-			width: 20%;
-			text-align: center;
-			padding: 0;
-			margin-top: 0;
-			margin: 0 20px;
-		}
-		.hh:hover{
-			background-color: black;
-			color: #fff !important;
-			border-top-right-radius: 10px;
-			border-top-left-radius: 10px;
-		}
-		.hi{
-			font-family: 'Pacifico', cursive;
-			font-size: 1050%;
-			top: 0%;
-			line-height: 100%;
-			text-align: center;
-			margin-left: -6%;
-		}
-		.ee{
-			font-family: monospace;
-			font-size: 500%;
-			top: 32%;
-			line-height: 100%;
-			text-align: center;
-			margin-left: -7%;
-			margin-right: 0;
-		}
-		.pic{
-			height: 40%;
-			bottom: 1%;
-			left: 14%
-		}
-		.mft{
-			background-color: black;
-			width: 100%;
-			bottom: 0;
-			padding:0;
-		}
-		.resume{
-			font-size: 250%;
-			font-family: monospace;
-			text-decoration: none;
-			background-color:#333;
-			color:#fff;
-			padding:10px 15px;
-			border-top-right-radius: 20px;
-			border-bottom-left-radius: 15px;
-			top: 55%;
-			left: 10%;
-		}
-
-		.resume:hover{
-			background:#e3242b;
-			color:#fff;
-		}
-		.contact{
-			font-size: 250%;
-			font-family: monospace;
-			text-decoration: none;
-			background-color:#333;
-			color:#fff;
-			padding:10px 15px;
-			border-top-left-radius: 20px;
-			border-bottom-right-radius: 15px;
-			top: 55%;
-			left: 60%;
-		}
-		.contact:hover{
-			background:#e3242b;
-			color:#fff;
-		}
-		.otherpic{
-			height: 40%;
-			bottom: 1%;
-			left: 14%
-		}
-		.sicon{
-			height: 22px;
-			border-radius: 10px;
-		}
-		.mft ul{
-			padding: 0;
-			list-style: none;
-			width: 67%;
-		}
-		.mft li{
-			display: inline;
-		}
-		.mft a{
-			float: right;
-			margin-right: 11%;
-		}
-		.gmail1{
-			height: 7%;
-			left: 20%;
-			top: 10%;
-			background-color: white;
-			padding: 0.5%;
-			border-radius: 50%;
-		}
-		.gmail2{
-			height: 7%;
-			left: 20%;
-			top: 25%;
-			background-color: white;
-			padding: 0.5%;
-			border-radius: 50%;
-		}
-		.phone{
-			height: 7%;
-			left: 20%;
-			top: 40%;
-			background-color: white;
-			padding: 0.5%;
-			border-radius: 50%;
-		}
-		.mad1{
-			color: #000;
-			text-decoration: none;
-			font-family: 'PT Sans Narrow', sans-serif;
-			font-size: 300%;
-			left: 40%;
-			top: 12%;
-			background-color: white;
-			padding: 3%;
-			border-bottom-right-radius: 0.2em;
-			border-bottom-left-radius: 0.2em;
-			border-top-left-radius: 0.2em;
-			border-top-right-radius: 0.8em;
-		}
-		.mad1:hover{
-			color:blue;
-		}
-		.mad2{
-			color: #000;
-			text-decoration: none;
-			font-family: 'PT Sans Narrow', sans-serif;
-			font-size: 300%;
-			left: 40%;
-			top: 27%;
-			background-color: white;
-			padding: 3%;
-			border-bottom-right-radius: 0.2em;
-			border-bottom-left-radius: 0.2em;
-			border-top-left-radius: 0.2em;
-			border-top-right-radius: 0.8em;
-		}
-		.mad2:hover{
-			color:blue;
-		}
-		.pn{
-			font-family: 'PT Sans Narrow', sans-serif;
-			font-size: 300%;
-			left: 40%;
-			top: 39.8%;
-			background-color: white;
-			padding: 3%;
-			border-bottom-right-radius: 0.2em;
-			border-bottom-left-radius: 0.2em;
-			border-top-left-radius: 0.2em;
-			border-top-right-radius: 0.8em;
-		}
-		}
