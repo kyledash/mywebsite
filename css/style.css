@@ -224,7 +224,7 @@ body, html{
 .hi{
 	font-family: 'Pacifico', cursive;
 	width: 100%;
-	font-size:7em;
+	font-size:8.2em;
 	text-align: center;	
 	line-height: 1.2em;
 	box-sizing: border-box;
@@ -250,7 +250,7 @@ body, html{
 }
 .resume{
 	font-family: monospace;
-	font-size: 2em;
+	font-size: 1.8em;
 	text-align: center;
 	text-decoration: none;
 	background-color:#333;
@@ -271,7 +271,7 @@ body, html{
 }
 .git{
 	font-family: monospace;
-	font-size: 2em;
+	font-size: 1.8em;
 	text-decoration: none;
 	background-color:#333;
 	line-height: 1.1em;
